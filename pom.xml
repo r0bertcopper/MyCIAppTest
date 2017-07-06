@@ -46,11 +46,6 @@
             <artifactId>selenium-htmlunit-driver</artifactId>
             <version>2.52.0</version>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-        </dependency>
 
 
     </dependencies>
