@@ -1,5 +1,7 @@
+
 import junit.framework.TestCase;
 import org.apache.commons.io.FileUtils;
+
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.openqa.selenium.OutputType;
@@ -72,7 +74,7 @@ public class Selenium extends TestCase {
     }
 
 
-    @org.junit.AfterClass
+    @AfterClass
 
     public void tearDown() throws Exception
 
