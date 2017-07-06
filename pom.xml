@@ -8,8 +8,27 @@
     <artifactId>apptest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+        <junit.version>4.12</junit.version>
+
+        <!-- USE HTMLUnit 2.21 with WebDriver 2.53.1
+            2.21 of HTMLUnit works with 2.53.1 webdriver,
+            but could not get 2.23 working at all with 3 or 2.53.1 -->
+        <!--
+                <webdriver.version>2.53.1</webdriver.version>
+                <htmlunitdriver.version>2.21</htmlunitdriver.version>
+        -->
+
+        <!-- USE HTMLUnit 2.23 with WebDriver 3.0.1
+            v 3.0.1 had changes and now 2.23 works with WebDriver 3.0.01 -->
+
+
+    </properties>
+
+
+    <dependencies>
 
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -48,18 +67,22 @@
             <scope>test</scope>
         </dependency>
 
-
     </dependencies>
 
-    <plugins>
-
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.8.1</version>
-        </plugin>
-
-    </plugins>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>
