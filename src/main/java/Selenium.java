@@ -4,17 +4,18 @@ import org.apache.commons.io.FileUtils;
 
 import org.junit.AfterClass;
 import org.junit.Before;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -58,10 +59,28 @@ public class Selenium extends TestCase {
         */
 
         // Chrome setup
-
+        /*
         System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\WebDrivers\\Chrome\\chromedriver_win32\\chromedriver.exe");
 
         driver = new ChromeDriver();
+        */
+
+
+        // RemoteWebDriver
+        //public static void linkGrid(){
+
+            DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+            capabilities.setCapability("platform", Platform.WINDOWS);
+
+            try {
+                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+            }
+            catch (MalformedURLException e){
+
+                e.printStackTrace();
+            }
+       // }
+
 
 
 

@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by pmichniuk on 07/11/2016.
  */
-public class TEST1_NAVIGATE_TO extends Selenium {
+public class TEST1_NAVIGATE extends Selenium {
 
     //public static InternetExplorerDriver driver;
 
