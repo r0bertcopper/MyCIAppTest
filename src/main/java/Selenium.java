@@ -56,15 +56,10 @@ public class Selenium extends TestCase {
         */
 
         // Chrome setup
-        /*
+
         System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\WebDrivers\\Chrome\\chromedriver_win32\\chromedriver.exe");
 
         driver = new ChromeDriver();
-        */
-
-        System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\WebDrivers\\Chrome\\chromedriver_win32\\chromedriver.exe");
-
-        driver = new HtmlUnitDriver();
 
         // Pre-exec methods
 
@@ -76,7 +71,7 @@ public class Selenium extends TestCase {
     }
 
 
-    @AfterClass
+    @org.junit.AfterClass
 
     public void tearDown() throws Exception
 
