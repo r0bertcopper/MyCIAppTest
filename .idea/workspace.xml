@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3629f1a7-5e77-4570-9acd-f2fcbc1b9de4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TEST2_INTERROGATE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TEST3_FRAMES.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE_TO.java" afterPath="$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE.java" afterPath="$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE_MANIPULATE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/TEST_REMOTE_GRID.java" afterPath="$PROJECT_DIR$/src/test/java/TEST4_REMOTE_GRID.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Selenium.class" afterPath="$PROJECT_DIR$/target/classes/Selenium.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Selenium.java" afterPath="$PROJECT_DIR$/src/main/java/Selenium.java" />
     </list>
     <ignored path="MyCIAppTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TEST1_NAVIGATE.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE.java">
+      <file leaf-file-name="TEST1_NAVIGATE_MANIPULATE.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE_MANIPULATE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="281">
+              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -74,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TEST_REMOTE_GRID.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TEST_REMOTE_GRID.java">
+      <file leaf-file-name="TEST4_REMOTE_GRID.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TEST4_REMOTE_GRID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="36" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="426">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Selenium.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Selenium.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Selenium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+            <state relative-caret-position="313">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,12 +117,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE_TO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TEST_REMOTE_GRID.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TEST2_INTERROGATE.java" />
         <option value="$PROJECT_DIR$/src/test/java/TEST3_FRAMES.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE.java" />
         <option value="$PROJECT_DIR$/src/main/java/Selenium.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TEST_REMOTE_GRID.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TEST4_REMOTE_GRID.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TEST5_FORM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE_MANIPULATE.java" />
       </list>
     </option>
   </component>
@@ -189,6 +190,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyCIAppTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyCIAppTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyCIAppTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyCIAppTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -202,57 +239,15 @@
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.44533947" />
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="TEST1_NAVIGATE.test_NavigateTo_AssertTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TEST1_NAVIGATE_MANIPULATE.test_formFill">
+    <configuration default="false" name="TEST1_NAVIGATE_MANIPULATE.test_NavigateTo_AssertTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MyCIAppTest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TEST1_NAVIGATE" />
+      <option name="MAIN_CLASS_NAME" value="TEST1_NAVIGATE_MANIPULATE" />
       <option name="METHOD_NAME" value="test_NavigateTo_AssertTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TEST_REMOTE_GRID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MyCIAppTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TEST_REMOTE_GRID" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TEST_REMOTE_GRID.test_navigateToSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MyCIAppTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TEST_REMOTE_GRID" />
-      <option name="METHOD_NAME" value="test_navigateToSearch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -296,6 +291,48 @@
       <option name="MAIN_CLASS_NAME" value="TEST3_FRAMES" />
       <option name="METHOD_NAME" value="test_frameSwith" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TEST1_NAVIGATE_MANIPULATE.test_formFill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MyCIAppTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TEST1_NAVIGATE_MANIPULATE" />
+      <option name="METHOD_NAME" value="test_formFill" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TEST1_NAVIGATE_MANIPULATE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MyCIAppTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TEST1_NAVIGATE_MANIPULATE" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -553,19 +590,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TEST1_NAVIGATE.test_NavigateTo_AssertTitle" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TEST_REMOTE_GRID" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TEST_REMOTE_GRID.test_navigateToSearch" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TEST2_INTERROGATE.test_InterrogateWebPage" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TEST3_FRAMES.test_frameSwith" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TEST1_NAVIGATE_MANIPULATE.test_NavigateTo_AssertTitle" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TEST2_INTERROGATE.test_InterrogateWebPage" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TEST3_FRAMES.test_frameSwith" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TEST1_NAVIGATE_MANIPULATE.test_formFill" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TEST1_NAVIGATE_MANIPULATE" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TEST1_NAVIGATE.test_NavigateTo_AssertTitle" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TEST3_FRAMES.test_frameSwith" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TEST2_INTERROGATE.test_InterrogateWebPage" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TEST_REMOTE_GRID" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TEST_REMOTE_GRID.test_navigateToSearch" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TEST1_NAVIGATE_MANIPULATE.test_formFill" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TEST1_NAVIGATE_MANIPULATE" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TEST1_NAVIGATE_MANIPULATE.test_NavigateTo_AssertTitle" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TEST3_FRAMES.test_frameSwith" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TEST2_INTERROGATE.test_InterrogateWebPage" />
       </list>
     </recent_temporary>
   </component>
@@ -657,39 +694,46 @@
       <option name="project" value="LOCAL" />
       <updated>1499377292260</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update">
+      <created>1499382564366</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1499382564366</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TEST1_NAVIGATE_TO_test_NavigateTo_AssertTitle - 2017.07.06 at 22h 05m 43s.xml">
-      <configuration name="TEST1_NAVIGATE_TO.test_NavigateTo_AssertTitle" configurationId="JUnit" />
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE - 2017.07.07 at 01h 03m 26s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE_test_formFill - 2017.07.07 at 00h 42m 52s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE.test_formFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE_test_formFill - 2017.07.07 at 00h 44m 18s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE.test_formFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE_test_formFill - 2017.07.07 at 00h 44m 48s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE.test_formFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE_test_formFill - 2017.07.07 at 00h 45m 22s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE.test_formFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE_test_formFill - 2017.07.07 at 01h 05m 34s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE.test_formFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE_test_formFill - 2017.07.07 at 01h 08m 28s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE.test_formFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE_test_formFill - 2017.07.07 at 01h 18m 14s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE.test_formFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEST1_NAVIGATE_MANIPULATE_test_formFill - 2017.07.07 at 01h 21m 01s.xml">
+      <configuration name="TEST1_NAVIGATE_MANIPULATE.test_formFill" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TEST1_NAVIGATE_test_NavigateTo_AssertTitle - 2017.07.07 at 00h 08m 42s.xml">
       <configuration name="TEST1_NAVIGATE.test_NavigateTo_AssertTitle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEST2_INTERROGATE_test_InterrogateWebPage - 2017.07.06 at 23h 13m 59s.xml">
-      <configuration name="TEST2_INTERROGATE.test_InterrogateWebPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEST3_FRAMES_test_frameSwith - 2017.07.06 at 23h 47m 35s.xml">
-      <configuration name="TEST3_FRAMES.test_frameSwith" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEST3_FRAMES_test_frameSwith - 2017.07.06 at 23h 50m 15s.xml">
-      <configuration name="TEST3_FRAMES.test_frameSwith" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEST3_FRAMES_test_frameSwith - 2017.07.06 at 23h 52m 32s.xml">
-      <configuration name="TEST3_FRAMES.test_frameSwith" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEST3_FRAMES_test_frameSwith - 2017.07.06 at 23h 56m 33s.xml">
-      <configuration name="TEST3_FRAMES.test_frameSwith" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEST_REMOTE_GRID - 2017.07.06 at 22h 15m 13s.xml">
-      <configuration name="TEST_REMOTE_GRID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEST_REMOTE_GRID - 2017.07.06 at 22h 17m 31s.xml">
-      <configuration name="TEST_REMOTE_GRID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEST_REMOTE_GRID_test_navigateToSearch - 2017.07.06 at 22h 15m 32s.xml">
-      <configuration name="TEST_REMOTE_GRID.test_navigateToSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -708,7 +752,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -791,10 +835,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TEST3_FRAMES.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TEST5_FORM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -809,32 +861,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TEST_REMOTE_GRID.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TEST3_FRAMES.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="36" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TEST4_REMOTE_GRID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="426">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TEST1_NAVIGATE_MANIPULATE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
-          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>

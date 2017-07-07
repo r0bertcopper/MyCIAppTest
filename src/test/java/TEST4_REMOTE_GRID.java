@@ -14,7 +14,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by user on 06/07/2017.
  */
-public class TEST_REMOTE_GRID {
+public class TEST4_REMOTE_GRID {
 
     private static WebDriver driver = null;
     final private String PROTOCOL = "http";
