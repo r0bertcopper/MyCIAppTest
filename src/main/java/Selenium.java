@@ -37,7 +37,10 @@ public class Selenium extends TestCase {
 
     public void setUp() throws Exception {
 
-        baseURL = "http://www.compendiumdev.co.uk/selenium";
+        //baseURL = "http://www.compendiumdev.co.uk/selenium";
+        //baseURL = "http://www.compendiumdev.co.uk/selenium/find_by_playground.php";
+        //baseURL = "https://www.compendiumdev.co.uk/selenium/basic_ajax.html";
+        baseURL = "http://compendiumdev.co.uk/selenium/" + "basic_html_form.html";
         driver = setDriver();
         wait = new WebDriverWait(driver, 10);
         driver.manage().window().maximize();
@@ -59,13 +62,13 @@ public class Selenium extends TestCase {
         */
 
         // Chrome setup
-        /*
+
         System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\WebDrivers\\Chrome\\chromedriver_win32\\chromedriver.exe");
 
         driver = new ChromeDriver();
-        */
 
 
+/*
         // RemoteWebDriver
         //public static void linkGrid(){
 
@@ -78,7 +81,7 @@ public class Selenium extends TestCase {
             catch (MalformedURLException e){
 
                 e.printStackTrace();
-            }
+ */           //}
        // }
 
 
@@ -89,6 +92,7 @@ public class Selenium extends TestCase {
         driver.manage().window().maximize();
 
         driver.get(baseURL);
+        addDelay(5000);
 
         return driver;
     }
